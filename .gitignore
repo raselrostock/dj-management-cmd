@@ -1,3 +1,7 @@
+__pycache__
+*.pyc
 venv/
 .vscode/
 dj_management_cmd/.env
+static/
+db.sqlite3
