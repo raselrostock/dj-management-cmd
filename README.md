@@ -9,7 +9,7 @@ Basic Custom Command
 Generate a random date:
 -----------------------
     python manage.py random_date
-    [CODE](https://github.com/raselrostock/dj-management-cmd/blob/master/core/management/commands/random_date.py)
+    [INFO](https://github.com/raselrostock/dj-management-cmd/blob/master/core/management/commands/random_date.py)
 
 Handling Arguments:
 -------------------
