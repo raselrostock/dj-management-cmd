@@ -9,23 +9,23 @@ Basic Custom Command
 Generate a random date:
 -----------------------
     python manage.py random_date
-    [CODE](http://)
+    [CODE](https://github.com/raselrostock/dj-management-cmd/blob/master/core/management/commands/random_date.py)
 
 Handling Arguments:
 -------------------
     python manage.py create_user 3
-    [CODE](http://)
+    [CODE](https://github.com/raselrostock/dj-management-cmd/blob/master/core/management/commands/create_user.py)
 
 
 Optional Arguments:
 -------------------
     python manage.py create_user 3 --prefix custom_user
-    [CODE](http://)
+    [CODE](https://github.com/raselrostock/dj-management-cmd/blob/master/core/management/commands/create_user.py)
 
 Flag Arguments:
 -------------------
     python manage.py create_user 3 --admin
-    [CODE](http://)
+    [CODE](https://github.com/raselrostock/dj-management-cmd/blob/master/core/management/commands/create_user.py)
 
 
 Arbitary Arguments:
@@ -33,11 +33,11 @@ Arbitary Arguments:
     python manage.py delete_user 1
                  or
     python manage.py delete_user 1, 2, 3
-    [CODE](http://)
+    [CODE](https://github.com/raselrostock/dj-management-cmd/blob/master/core/management/commands/delete_user.py)
 
 
 Scheduled Management Commands:
--------------------
+------------------------------
 
 cron_schedule python_path manage_py_path command_name possitional_args optional_args
 
