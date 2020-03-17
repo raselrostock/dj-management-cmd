@@ -1,1 +1,3 @@
 venv/
+.vscode/
+dj_management_cmd/.env
