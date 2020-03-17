@@ -13,6 +13,6 @@ class Command(BaseCommand):
         return datetime.date(year, month, day)
 
     
-    def handle(self, *args, **kwargs):
+    def handle(self, *args, **options):
         random_date = self.generate_date()
         self.stdout.write(self.style.SUCCESS(f"Random Date: {random_date}."))
